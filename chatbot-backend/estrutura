@@ -1,0 +1,45 @@
+chatbot-backend/
+├── dist/
+├── logs/
+├── node_modules/
+├── src/
+│   ├── config/
+│   │   ├── db.ts
+│   │   ├── passport.ts
+│   │   └── env.ts
+│   ├── controllers/
+│   │   ├── admin.controller.ts
+│   │   ├── auth.controller.ts
+│   │   ├── chatbot.controller.ts
+│   │   └── user.controller.ts
+│   ├── middlewares/
+│   │   ├── auth.middleware.ts
+│   │   ├── rateLimiter.ts
+│   │   ├── validator.ts
+│   │   └── error.middleware.ts
+│   ├── models/
+│   │   ├── ChatbotConfig.ts
+│   │   ├── ChatMessage.ts
+│   │   ├── User.ts
+│   │   └── PasswordResetToken.ts
+│   ├── routes/
+│   │   ├── auth.routes.ts
+│   │   ├── user.routes.ts
+│   │   ├── chatbot.routes.ts
+│   │   └── index.ts
+│   ├── services/
+│   │   ├── auth.service.ts
+│   │   ├── email.service.ts
+│   │   └── chatbot.service.ts
+│   ├── types/
+│   │   ├── express.d.ts
+│   ├── utils/
+│   │   ├── auth.ts
+│   │   ├── errorHandler.ts
+│   │   ├── jwt.ts
+│   │   └── logger.ts
+│   └── app.ts
+├── .env
+├── package.json
+├── tsconfig.json
+└── .gitignore

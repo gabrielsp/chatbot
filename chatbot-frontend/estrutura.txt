@@ -1,0 +1,66 @@
+chatbot-frontend/
+├── node_modules/ 
+├── public/ 
+├── src/ 
+│   ├── assets/ 
+│   ├── components/ 
+│   │   ├── animations/ 
+│   │   │   ├── BackToTop.tsx 
+│   │   │   ├── ChatBubbles.tsx 
+│   │   │   └── FloatingIcons.tsx 
+│   │   ├── layout/ 
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Header.tsx
+│   │   │   └── Layout.tsx 
+│   │   ├── sections/ 
+│   │   │   ├── CTASection.tsx 
+│   │   │   ├── FAQSection.tsx 
+│   │   │   ├── FeaturesSection.tsx 
+│   │   │   ├── HeroSection.tsx 
+│   │   │   ├── HowItWorksSection.tsx 
+│   │   │   └── StatsSection.tsx 
+│   │   └── ui/
+│   │       ├── AOSWrapper.tsx  
+│   │       ├── Button.tsx 
+│   │       ├── GlassCard.tsx 
+│   │       ├── ScrollLink.tsx 
+│   │       ├── ScrollToTop.tsx 
+│   │       └── StatCounter.tsx 
+│   ├── contexts/ 
+│   │   ├── AOSContext.ts 
+│   │   ├── AuthContext.ts 
+│   │   ├── ProtectedRoute.ts
+│   │   └── ThemeContext.ts  
+│   ├── hooks/ 
+│   │   ├── useAOSRefresh.ts 
+│   │   ├── useMobileNav.ts 
+│   │   └── useScripts.ts 
+│   ├── pages/ 
+│   │   ├── AuthCallbackPage.tsx
+│   │   ├── ForgotPasswordPage.tsx
+│   │   ├── HomePage.tsx 
+│   │   ├── LoginPage.tsx 
+│   │   ├── DashboardPage.tsx
+│   │   ├── VerifyEmailPage.tsx
+│   │   └── sections-Dashboard/
+│   │       ├── AddUser.tsx  
+│   │       ├── ChangePassword.tsx 
+│   │       ├── DashboardHome.tsx 
+│   │       ├── MyChatbot.tsx 
+│   │       └── PersonalData.tsx  
+│   ├── services/ 
+│   │   ├── api.ts 
+│   │   └── authApi.ts
+│   ├── styles/ 
+│   │   └── globals.css 
+│   ├── utils/ 
+│   ├── App.tsx 
+│   ├── main.tsx 
+│   └── vite-env.d.ts 
+├── .env
+├── .gitignore
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts

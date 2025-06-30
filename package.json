@@ -1,0 +1,56 @@
+{
+  "name": "chatbot-complete",
+  "version": "1.0.0",
+  "description": "Sistema completo de chatbot com frontend React e backend Node.js",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "install:backend": "cd chatbot-backend && npm install",
+    "install:frontend": "cd chatbot-frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd chatbot-backend && npm run dev",
+    "dev:frontend": "cd chatbot-frontend && npm run dev",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd chatbot-backend && npm run build",
+    "build:frontend": "cd chatbot-frontend && npm run build",
+    "start": "npm run start:backend",
+    "start:backend": "cd chatbot-backend && npm start",
+    "start:frontend": "cd chatbot-frontend && npm run preview",
+    "clean": "npm run clean:backend && npm run clean:frontend",
+    "clean:backend": "cd chatbot-backend && rm -rf dist node_modules",
+    "clean:frontend": "cd chatbot-frontend && rm -rf dist node_modules",
+    "lint": "npm run lint:backend && npm run lint:frontend",
+    "lint:backend": "cd chatbot-backend && npm run lint",
+    "lint:frontend": "cd chatbot-frontend && npm run lint",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd chatbot-backend && npm test",
+    "test:frontend": "cd chatbot-frontend && npm test"
+  },
+  "keywords": [
+    "chatbot",
+    "react",
+    "nodejs",
+    "typescript",
+    "mongodb",
+    "express",
+    "vite",
+    "tailwindcss"
+  ],
+  "author": "GABRIELSP",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielsp/chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielsp/chatbot/issues"
+  },
+  "homepage": "https://github.com/gabrielsp/chatbot#readme"
+} 
