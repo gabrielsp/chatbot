@@ -121,4 +121,15 @@ uploads/
 .prettierignore
 
 # Local development
-.local/ 
+.local/
+
+## 🖼️ Screenshots
+
+### Dashboard
+![Dashboard](docs/dashboard.png)
+
+### Home Page
+![Home Page](docs/home-page.png)
+
+### Login Page
+![Login Page](docs/login-page.png) 

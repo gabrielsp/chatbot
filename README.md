@@ -2,6 +2,17 @@
 
 Um sistema completo de chatbot com interface web moderna e backend robusto, desenvolvido com React, TypeScript, Node.js e MongoDB.
 
+## 🖼️ Screenshots
+
+### Dashboard
+![Dashboard](docs/dashboard.png)
+
+### Home Page
+![Home Page](docs/home-page.png)
+
+### Login Page
+![Login Page](docs/login-page.png)
+
 ## 📋 Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
